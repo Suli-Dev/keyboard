@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background-color: #763b00;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+.title {
+  font-size: 42px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.result {
+  border: 1px solid #fff;
+  height: 32.5px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+#form > button {
+  width: 48px;
+  padding: 10px 0;
+  margin: 2px;
+  background-color: #000000;
+  border: 2px;
+  border-color: #000000;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #000000 inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#form > button:hover {
+  cursor: pointer;
+  color: #273c75;
+  background-color: #fff;
+  border: 2px solid #273c75;
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+#form > button[data-type="Caps Lock"] {
+  width: 140px;
+  margin-left: 50px;
+  color: #fff;
+  border-color: #fff;
+  background-color: #273c75;
+}
+#form > button[data-type="Backspace"] {
+  width: 140px;
+  color: #fff;
+  border-color: #fff;
+  background-color: #273c75;
+}
+#form > button[data-type="Language"] {
+  width: 140px;
+  color: #fff;
+  border-color: #fff;
+  background-color: #273c75;
+}
